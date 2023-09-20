@@ -9,6 +9,7 @@
       <working-dir>$ProjectFileDir$</working-dir>
       <driver-properties>
         <property name="allowLoadLocalInfile" value="TRUE" />
+        <property name="allowLoadLocalInfileInPath" value="TRUE" />
       </driver-properties>
     </data-source>
   </component>

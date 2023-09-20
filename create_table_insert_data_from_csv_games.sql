@@ -1,6 +1,7 @@
 use quera;
-create table games
+create table if not exists games
 (
+    id              bigint unsigned primary key auto_increment,
     name            varchar(255),
     platform        VARCHAR(255),
     year_of_release YEAR,
